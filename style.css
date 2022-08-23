@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("janko-ferlic-sfL_QOnmy00-unsplash.jpg") center/ cover no-repeat;
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+}
+.main-heading {
+    font-size: 1.8rem;
+    width: 80%;
+    background-color: #262626;
+    color: #fff;
+    margin: 15px auto;
+    padding: 10px 8px;
+    border: 5px #fff solid;
+    border-radius: 5px;
+}
+
+.main-content {
+    background-color: #fff;
+    height: 300px;
+    padding: 50px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+}
+
+.text-area {
+    font-size: 1.5rem;
+    
+
+}
+
+.person {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #f00;
+    margin-top: 20px;
+}
+
+.new-quote {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #262626;
+}
+
+.new-quote:active {
+    background-color: #add8e6;
+    color: #262626;
+}
